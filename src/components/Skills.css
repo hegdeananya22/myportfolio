@@ -1,0 +1,37 @@
+/* Corrected CSS */
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.skills-section {
+  padding: 20px;
+  background-color: #f4f4f9; /* Aesthetic background color */
+}
+
+.skills-section h3 {
+  color: #af52d4; /* Aesthetic purple color */
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.skills-section li img,
+.skills-section li svg {
+  margin-right: 10px;
+}
+
+.skills-section li span {
+  color: #333;
+}

@@ -1,0 +1,51 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: rgba(179, 229, 252, 0.9); /* Light pastel blue with slight transparency */
+  padding: 20px;
+  border-bottom: 1px solid #81d4fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  text-align: center;
+  background-color: #dceefb;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+}
+
+/* Section styling */
+section {
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styling for the About Me section */
+#about-me {
+  margin-top: 80px; /* Push the About Me section further down */
+}
+
+/* Heading and text styling */
+h1, h2 {
+  color: #0277bd; /* Darker blue for headings */
+}
+
+p {
+  color: #555; /* Slightly darker text for readability */
+}

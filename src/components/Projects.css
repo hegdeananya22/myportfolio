@@ -1,0 +1,16 @@
+.projects {
+  background: #ffffff; /* White background */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+  font-size: 2.5em;
+  color: #0277bd; /* Darker blue for headings */
+}
+
+.projects p {
+  font-size: 1.2em;
+  color: #555; /* Slightly darker text */
+}
